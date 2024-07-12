@@ -22,7 +22,6 @@ header {
     align-items: center;
 }
 
-
 nav ul {
     list-style: none;
     display: flex;
@@ -36,19 +35,20 @@ nav a {
     text-decoration: none;
     color: #fff;
 }
-.text h2,p{
+
+.text h2,
+p {
     font-style: italic;
     padding: 15px;
 }
-h1{
+
+h1 {
     padding-left: 50px;
-
 }
-
 
 /* Section styles */
 section {
-    padding: 60px 20px ;
+    padding: 60px 20px;
     text-align: center;
 }
 
@@ -86,7 +86,6 @@ section {
     font-size: 36px;
     margin-bottom: 20px;
     align-items: center;
-    
 }
 
 .deepa p {
@@ -118,8 +117,10 @@ section {
     padding: 15px;
     border-radius: 5px;
     text-align: center;
+    cursor: pointer;
 }
-.hi{
+
+.hi {
     padding-top: 20px;
 }
 
@@ -135,6 +136,30 @@ section {
     margin: 0;
     font-size: 16px;
     font-weight: bold;
+}
+
+/* Dish details section styles */
+#dish-details {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#dish-details .content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#dish-details .image img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Smaller image class */
+.clicked-image {
+    width: 50% !important;
+    transition: width 0.3s ease;
 }
 
 /* Footer styles */
